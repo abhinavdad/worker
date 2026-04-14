@@ -33,7 +33,7 @@ API_HASH = "e8f8739959e4fbe917f4780c13625543"
 BOT_TOKEN = "8758625321:AAHZheX0hulRyRRdf1p_YbSxHpoOHXkm0Yw"
 OWNER_ID = 8094093317
 LOG_CHANNEL = -1003830365185
-SESSION_TIMEOUT = 300
+SESSION_TIMEOUT = 900  # 15 minutes
 
 # ═══════════════════════════════════════════════════════════════
 #              PREMIUM ANIMATED EMOJI DICTIONARY
