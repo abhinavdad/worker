@@ -777,9 +777,7 @@ async def process_steps(_, message: Message):
                         data["api_hash"]
                     )
                     await client.connect()
-                    sent_code = await client.send_code_request(phone)
-                    data["phone_code_hash"] = sent_code.phone_code_hash
-                    data["client"] = client
+                    await client.send_code_request(phone)
 
                 data["step"] = "otp"
                 await loading_msg.edit_text(
@@ -872,9 +870,8 @@ async def process_steps(_, message: Message):
                     )
                 elif session_type == "telethon":
                     await client.sign_in(
-                        phone=data["phone"],
-                        code=otp,
-                        phone_code_hash=data["phone_code_hash"]
+                      data["phone"],
+                      otp
                     )
 
                 await generate_string(
