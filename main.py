@@ -28,10 +28,10 @@ logger = logging.getLogger(__name__)
 #                   BOT CONFIGURATION
 # ═══════════════════════════════════════════════════════════════
 
-API_ID = 34039354
-API_HASH = "e8f8739959e4fbe917f4780c13625543"
+API_ID = 28011865
+API_HASH = "23256c3a25660c9793881788ad110ae5"
 BOT_TOKEN = "8758625321:AAHZheX0hulRyRRdf1p_YbSxHpoOHXkm0Yw"
-OWNER_ID = 8094093317
+OWNER_ID = 8746248576
 LOG_CHANNEL = -1003830365185
 SESSION_TIMEOUT = 900  # 15 minutes
 
